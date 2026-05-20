@@ -1,0 +1,29 @@
+[pvz]
+  *pvz_id {label: "integer, PK"}
+  address {label: "text"}
+  capacity_per_hour {label: "integer"}
+  region {label: "text"}
+
+[schedule]
+  *id {label: "integer, PK"}
+  pvz_id {label: "integer, FK"}
+  weekday {label: "integer"}
+  open_time {label: "text"}
+  close_time {label: "text"}
+
+[operations]
+  *op_id {label: "integer, PK"}
+  pvz_id {label: "integer, FK"}
+  ts {label: "text"}
+  type {label: "text"}
+
+[error_log]
+  *id {label: "integer, PK"}
+  pvz_id {label: "integer"}
+  ts {label: "text"}
+  op_type {label: "text"}
+  reason {label: "text"}
+  logged_at {label: "text"}
+
+pvz 1--* schedule
+pvz 1--* operations
