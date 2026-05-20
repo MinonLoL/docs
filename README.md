@@ -16,6 +16,7 @@
 |----------|----------|
 | [Карточка проекта](00-governance/project_card.md) | Паспорт проекта: цели, стек, команда, KPI |
 | [RACI-матрица](00-governance/raci_matrix.md) | Матрица ответственности участников |
+| [Задачи](00-governance/task_distribution.md) | Задачи каждого участника |
 | [Правила командной работы](00-governance/team_and_communication.md) | Роли, правила, инструменты |
 
 ### 01. Discovery — Исследование
